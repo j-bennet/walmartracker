@@ -1,0 +1,123 @@
+
+##### basic ignores #####
+
+# backup and temp files
+.#*
+*~
+*#
+*.stamp
+*.orig
+*.dot
+*.svg
+*.csv
+*.txt
+*.zip
+*.sqlite
+*.cleansed
+
+# python cruft
+*.pyc
+*.pyo
+*.egg
+*.egg-info
+
+# images cruft
+.DS_Store
+Data.fs*
+.metadata
+.directory
+
+# sass cruft
+.sass-cache
+
+# various IDEs cruft
+.project
+.pydevproject
+.settings
+*.sublime-*
+*.swp
+*.swo
+*.swn
+*.swm
+
+# test tools cruft
+coverage.xml
+.coverage
+.tox
+
+# virtualenv  cruft
+_env*
+
+# doc builds cruft
+docs/build
+docs/modules
+docs/templates
+docs/_static/jsdoc
+
+# tools auto generated/downloaded cruft
+activate
+tools/files/*
+tools/bin/gnubin
+tools/bin/rubybin
+tools/bin/phr
+tools/bin/sass
+tools/bin/sass-convert
+tools/jsdoc-toolkit/jsdoc
+
+##### pharaoh_nc ######
+
+code/pharaoh_nc/stage.ini
+code/pharaoh_nc/production.ini
+code/pharaoh_nc/vbox-local.ini
+
+# sessions data
+code/pharaoh_nc/data/sessions
+code/pharaoh_nc/data/cache
+
+# logs
+code/pharaoh_nc/logs/*.log
+
+# test databases
+code/pharaoh_nc/test-database.sqlite
+
+# generated sass files
+code/pharaoh_nc/pharaoh_nc/static/css/*.css
+
+# car pictures
+code/pharaoh_nc/pharaoh_nc/static/images/car-pictures/car-defaults/cc-large/*.[jp][pn]g
+code/pharaoh_nc/pharaoh_nc/static/images/car-pictures/car-defaults/large/*.[jp][pn]g
+code/pharaoh_nc/pharaoh_nc/static/images/car-pictures/car-defaults/medium/*.[jp][pn]g
+code/pharaoh_nc/pharaoh_nc/static/images/car-pictures/car-defaults/original/*.[jp][pn]g
+code/pharaoh_nc/pharaoh_nc/static/images/car-pictures/car-defaults/small/*.[jp][pn]g
+code/pharaoh_nc/pharaoh_nc/static/images/car-pictures/car-defaults/thumbnail/*.[jp][pn]g
+code/pharaoh_nc/pharaoh_nc/static/images/car-pictures/cc-large/*.[jp][pn]g
+code/pharaoh_nc/pharaoh_nc/static/images/car-pictures/large/*.[jp][pn]g
+code/pharaoh_nc/pharaoh_nc/static/images/car-pictures/original/*.[jp][pn]g
+code/pharaoh_nc/pharaoh_nc/static/images/car-pictures/thumbnail/*.[jp][pn]g
+code/pharaoh_nc/pharaoh_nc/static/images/car-pictures/evox/
+code/pharaoh_etl/data/evox/cc-large/*.[jp][pn]g
+code/pharaoh_etl/data/evox/large/*.[jp][pn]g
+code/pharaoh_etl/data/evox/medium/*.[jp][pn]g
+code/pharaoh_etl/data/evox/original/*.[jp][pn]g
+code/pharaoh_etl/data/evox/small/*.[jp][pn]g
+code/pharaoh_etl/data/evox/thumbnail/*.[jp][pn]g
+
+##### pharaoh_etl ######
+
+code/pharaoh_etl/stage.ini
+code/pharaoh_etl/production.ini
+
+# sessions data
+# ... skipped here cause has files 
+
+# logs
+code/pharaoh_etl/logs/*.log
+
+# test databases
+code/pharaoh_etl/test-database.sqlite
+code/pharaoh_etl/depot.sqlite
+code/pharaoh_etl/nexus.sqlite
+
+
+# pycharm stuff
+.idea/
